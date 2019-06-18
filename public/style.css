@@ -1,0 +1,68 @@
+
+nav {
+  background-color:#333a35;
+  height: 40px;
+}
+
+
+nav ul{
+  display: flex;
+  justify-content:space-around;
+  padding: 0px;
+  margin: 0px;
+  list-style-type:none; 
+}
+
+nav ul a {
+  color: white;
+}
+
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+h1 {
+  text-align: center;
+  font-style: oblique
+}
+/* 
+Card Properties for the characters */
+
+/* @media screen and (min-width: 40em) {
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+ 
+.card {
+  flex: 0 1 calc(25% - 1em);
+  }
+} */
+
+#display {
+  display: flex;
+  flex-wrap: wrap;
+}
